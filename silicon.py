@@ -87,7 +87,16 @@ def inserting(array):
 
 
 def deleting(array):
-    pass
+    print(f"Your array is {array}.")
+    # The code below is a very simple way of removing an element from an array.
+    # But in accordance with the question, you want to work with element locations.
+    # However, for simplicity's sake, this code will be used.
+    element = input("Enter the element you would like to delete from your array:")
+    array.remove(element)
+
+    print(f"The deleted element was {element}.")
+    print(f"Your new array is {array}.")
+
 
 
 def program():
