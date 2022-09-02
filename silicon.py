@@ -1,6 +1,3 @@
-from decimal import Clamped
-
-
 def menu():
     print("Select the operation you would like to perform:")
     option = int(input("""
